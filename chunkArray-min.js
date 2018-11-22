@@ -1,0 +1,1 @@
+const chunkArray=(a,b,c=false)=>{const m=[],x=c?Array.from(a):a;while(x.length){m[m.length]=x.splice(0,b)};return m};//array,chunk,conservative
